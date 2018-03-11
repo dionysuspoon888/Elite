@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qrscanbg"
+    >
+
+
+
+    <ImageView
+        android:text="scan"
+        android:src="@drawable/b_qrscan"
+        android:id="@+id/scan_btn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+
+        android:scaleType="fitXY"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/back"
+        android:text="Back"
+        android:id="@+id/b_backQr"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+       />
+
+
+
+    <FrameLayout
+        android:id="@+id/bar_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+    </FrameLayout>
+
+
+</RelativeLayout>
